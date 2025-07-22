@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Faraday Front Clone</title>
+  <link rel="stylesheet" href="style.css">
+  
+  
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="logo">F</div>
+      <nav>
+        <ul>
+          <li><span class="grande">📁</span></li>
+          <li><span class="grande">💡</span></li>
+          <li><span class="grande">📊</span></li>
+          <li><span class="grande">🗓️</span></li>
+          <li><span class="grande">📒</span></li>
+          <li><span class="grande">🤖</span></li>
+          <li><span class="grande">👤</span></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main>
+      <header class="topbar">
+        <span class="vuln-count moi"><span>🏠</span>0 vulnerabilities</span>
+        <input type="text" placeholder="Search workspaces" class="search">
+        <button class="search-btn">🔍</button>
+        <button class="save-btn">Save Filter</button>
+        <span class="user-avatar">F</span>
+      </header>
+
+      <div class="tabs">
+        <button class="tab active">Workspaces</button>
+        <button class="tab">Assets</button>
+        <button class="tab">Services</button>
+        <button class="tab">Vulnerabilities</button>
+      </div>
+
+      <div class="workspace-section">
+          <div class="workspace-toolbar">
+        <button class="add-workspace">➕ Add Workspace</button>
+        <span class="toolbar-divider">|</span>
+        <button class="edit-btn">✏️</button>
+        <button class="delete-btn">🗑️</button>
+      </div>
+
+        <div class="workspace-card">
+          <div class="workspace-header">
+            ⭐⭐ siteweb 🔒
+          </div>
+          <div class="workspace-dates">
+            Tue 1 Jul 2025 - Thu 31 Jul 2025
+          </div>
+          <div class="workspace-description">
+            Description: description1
+          </div>
+          <div class="workspace-metrics">
+            <div><strong>0</strong><br>VULNERABILITIES</div>
+            <div><strong>0</strong><br>ASSETS</div>
+            <div><strong>0</strong><br>SERVICES</div>
+            <div><strong>0</strong><br>CONFIRMED</div>
+            <div><strong style="color: #b50071;">0</strong><br>CRITICAL</div>
+            <div><strong>0</strong><br>OPEN</div>
+          </div>
+          <div class="workspace-footer">
+            Last Modified: 3 days ago<br>
+            Last Agent Execution: Never.
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
